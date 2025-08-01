@@ -67,7 +67,7 @@ def get_weather(city: str) -> str:
     return f"The weather in {city} is too much best for the Pakistani people. It is a sunny day with a temperature of 25 degrees Celsius."
 
 
-Initialize agents
+# Initialize agents
 weather_agent = Agent(
     name="weather_Assistant",
     instructions="You are a weather assistant provide the information of weather to user..",
